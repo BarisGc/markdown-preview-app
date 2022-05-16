@@ -24,7 +24,7 @@ function Output() {
 
   return (
     <>
-      <Col xs={{ span: 12, offset: 0 }} className='mx-0 px-0 '>
+      <Col xs={{ span: 12, offset: 0 }} className='mx-0 px-0 stickyMaker '>
         <Header />
       </Col>
       <Col xs={{ span: 5, offset: 1 }}>

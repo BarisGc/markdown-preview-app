@@ -8,6 +8,12 @@ html, body {
     background-color: #92B4EC !important;
 }
 
+.stickyMaker {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
 .header .headerTitle {
     text-transform: capitalize;
 }
@@ -34,7 +40,7 @@ html, body {
 
 .outputBox {
     background-color: #FFDD67 !important;
-    font-size: 16;
+    font-size: 16px;
     padding: 10px;
     height: 500px !important;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
@@ -45,4 +51,18 @@ html, body {
 
 .outputBox:focus {
     outline: none;
+}
+
+
+@media only screen and (min-height: 800px) {
+    .outputBox {
+        background-color: #FFDD67 !important;
+        font-size: 32px;
+        padding: 10px;
+        height: 750px !important;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+        border: none;
+        resize: none;
+        overflow-y: auto;
+    }
 }
