@@ -1,6 +1,6 @@
 # Project Name: *markdown-preview-app* 
 ### Project Deployment:
-Please, click > [Netlify](https://markdown-preview-app-barisd.netlify.app)
+Please, click > [Netlify](https://markdown-preview-app-barisd.netlify.app/)
 ### Frameworks/Libraries:
 - React, React-Redux, Redux-Toolkit, React-Bootstrap, react-markdown, react-syntax-highlighter
 - Postman, VS Code
